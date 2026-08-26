@@ -24,12 +24,13 @@ import {
 } from "lucide-react";
 
 import { Reveal } from "@/components/Reveal";
-import pdvHero from "@/assets/pdv-hero.png.asset.json";
-import paymentsAsset from "@/assets/payments.png.asset.json";
-import salesTeamAsset from "@/assets/sales-team.png.asset.json";
-import analyticsAsset from "@/assets/analytics-panel.png.asset.json";
-import crmAsset from "@/assets/customers.png.asset.json";
-import productsAsset from "@/assets/products.png.asset.json";
+
+const pdvHero = { url: "/img/pdv-hero.png" };
+const paymentsAsset = { url: "/img/payments.png" };
+const salesTeamAsset = { url: "/img/sales-team.png" };
+const analyticsAsset = { url: "/img/analytics-panel.png" };
+const crmAsset = { url: "/img/customers.png" };
+const productsAsset = { url: "/img/products.png" };
 
 // Placeholder demo video — replace with the real VendaFácil demonstration URL
 // (YouTube embed, Vimeo, or hosted mp4) when available.
