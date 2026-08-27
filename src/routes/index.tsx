@@ -32,7 +32,7 @@ const analyticsAsset = { url: "/img/analytics-panel.png" };
 const crmAsset = { url: "/img/customers.png" };
 const productsAsset = { url: "/img/products.png" };
 
-const DEMO_VIDEO_URL = "/videos/apresentacao_do_sistema.mp4";
+const DEMO_VIDEO_URL = "/videos/apresenta%C3%A7%C3%A3o_do_sitema.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
