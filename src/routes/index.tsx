@@ -32,10 +32,7 @@ const analyticsAsset = { url: "/img/analytics-panel.png" };
 const crmAsset = { url: "/img/customers.png" };
 const productsAsset = { url: "/img/products.png" };
 
-// Placeholder demo video — replace with the real VendaFácil demonstration URL
-// (YouTube embed, Vimeo, or hosted mp4) when available.
-const DEMO_VIDEO_URL =
-  "https://www.youtube.com/embed/ScMzIvxBSi4?autoplay=1&rel=0";
+const DEMO_VIDEO_URL = "/videos/apresentacao_do_sistema.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -632,12 +629,12 @@ function CaseStudy() {
             </button>
             <div className="overflow-hidden rounded-2xl border border-border bg-secondary shadow-[var(--shadow-elegant)]">
               <div className="aspect-video w-full">
-                <iframe
+                <video
                   src={DEMO_VIDEO_URL}
                   title="VendaFácil system demonstration"
                   className="h-full w-full"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
+                  controls
+                  autoPlay
                 />
               </div>
             </div>
